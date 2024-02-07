@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+body{   
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 25px;
+}
+h1 {   
+    font-family: 'Honk', sans-serif;
+    font-size: 50px;
+}
+
+header{ 
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    display: flex;
+    border: 2px solid black;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+main{   
+    border: 2px solid black;
+    height: 55vh;
+    padding: 25px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+footer{ 
+border: 2px solid black;
+text-align: center;
+font-weight: 900;
+}
+a{  
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+img{
+    width: 350px;
+}
